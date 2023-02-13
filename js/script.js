@@ -1,7 +1,7 @@
 function playGame(playerInput){
     clearMessages();
     console.log(clearMessages);
- 
+
 
 function getMoveName(argMoveId){
     if(argMoveId == 1){
@@ -102,8 +102,7 @@ function displayResult(argComputerMove, argPlayerMove){
 
   }
 }
-
-printMessage=(displayResult)(computerMove,playerMove);
+    displayResult(computerMove,playerMove);
 }
 document.getElementById('play-rock').addEventListener('click', function(){
     playGame(1);
